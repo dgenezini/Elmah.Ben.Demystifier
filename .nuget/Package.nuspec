@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Elmah.Ben.Demystifier</id>
+    <version>0.1.0</version>
+    <authors>Daniel Genezini</authors>
+    <owners>Daniel Genezini</owners>
+    <licenseUrl>https://github.com/dgenezini/Elmah.Ben.Demystifier/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dgenezini/Elmah.Ben.Demystifier</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Elmah HTTP Handler using Ben.Demystifier for high performance understanding for stack traces</description>
+    <summary>Elmah HTTP Handler using Ben.Demystifier for high performance understanding for stack traces</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Elmah Ben.Demystifier Demystifier</tags>
+    <dependencies>
+      <dependency id="elmah" version="1.2.2" />
+      <dependency id="Ben.Demystifier" version="0.1.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="..\src\Elmah.Ben.Demystifier\bin\Release\Elmah.Ben.Demystifier.dll" target="lib\net40\Elmah.Ben.Demystifier.dll"></file>
+    <file src="..\src\Elmah.Ben.Demystifier\web.config.install.xdt" target="content\web.config.install.xdt"></file>
+    <file src="..\src\Elmah.Ben.Demystifier\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt"></file>
+  </files>
+</package>
